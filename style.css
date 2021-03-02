@@ -60,3 +60,11 @@
     padding: 0 1rem;
     height: 100%;
 }
+
+.p_images {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: black;
+    position: sticky;
+    margin-bottom: 200px;
+}
