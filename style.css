@@ -5,6 +5,13 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h1 {
+    display: flex;
+    font-size: 100px;
+    margin: 64px;
+}
+
+/*Navbar*/
 .navbar {
     background: #fcd303;
     height: 80px;
@@ -61,10 +68,75 @@
     height: 100%;
 }
 
+
+/*Images*/
 .p_images {
     width: 100%;
     height: calc(100vh - 80px);
     background-color: black;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_images {
+    width: 100%;
+}
+
+#btn {
+    width: 50px;
+    height: 50px;
+}
+
+.btn_previous {
+    float: left;
+    margin-left: 10px;
+}
+
+.btn_next {
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*About Us*/
+.p_about_us {
+    width: 100%;
+    height: calc(100vh);
+    background-color: yellow;
     position: sticky;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+.t_about_us {
+    float: left;
+}
+
+
+/*Donate*/
+.p_donate {
+    width: 100%;
+    height: calc(100vh);
+    background-color: yellow;
+    position: sticky;
+    margin-bottom: 50px;
+}
+
+.t_donate {
+    float: right;
+}
+
+
+/*Volunteer*/
+.p_volunteer {
+    width: 100%;
+    height: calc(100vh);
+    background-color: yellow;
+    position: sticky;
+    margin-bottom: 50px;
+}
+
+.t_volunteer {
+    float: left;
 }
