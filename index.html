@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YAS</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/scripts/index.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -32,20 +33,52 @@
         </div>
     </nav>
     <div class="content">
-        <div class="p_images" id="panel">
+        <div class="p_images">
             <div class="btn_images">
                 <button class="btn_previous" id="btn"><</button>
                 <button class="btn_next" id="btn">></button>
             </div>
         </div>
+        <div class="transition_bar" data-color="pink_blue">
+            <div class="c_square" data-color="white" data-align="left">
+                <div class="c_circle" data-color="pink_blue" data-bevel="bottom_left"></div>
+            </div>
+        </div>
         <div class="p_about_us" id="panel">
-            <h1 class="t_about_us">About Us</h1>
+            <div class="panel_left" id="tb_about_us">
+                <h1 class="t_about_us">About Us</h1>
+            </div>
+        </div>
+        <div class="transition_bar" data-color="blue_green">
+            <div class="c_square" data-color="white" data-align="left">
+                <div class="c_circle" data-color="blue_green" data-bevel="top_left"></div>
+            </div>
+            <div class="c_square" data-color="white" data-align="right">
+                <div class="c_circle" data-color="blue_green" data-bevel="bottom_right"></div>
+            </div>
         </div>
         <div class="p_donate" id="panel">
-            <h1 class="t_donate">Donate</h1>
+            <div class="panel_right" id="tb_donate">
+                <h1 class="t_donate">Donate</h1>
+            </div>
+        </div>
+        <div class="transition_bar" data-color="green_orange">
+            <div class="c_square" data-color="white" data-align="left">
+                <div class="c_circle" data-color="green_orange" data-bevel="bottom_left"></div>
+            </div>
+            <div class="c_square" data-color="white" data-align="right">
+                <div class="c_circle" data-color="green_orange" data-bevel="top_right"></div>
+            </div>
         </div>
         <div class="p_volunteer" id="panel">
-            <h1 class="t_volunteer">Volunteer</h1>
+            <div class="panel_left" id="tb_volunteer">
+                <h1 class="t_volunteer">Volunteer</h1>
+            </div>
+        </div>
+        <div class="transition_bar" data-color="orange">
+            <div class="c_square" data-color="white" data-align="left">
+                <div class="c_circle" data-color="orange" data-bevel="top_left"></div>
+            </div>
         </div>
     </div>
 </body> 
